@@ -36,3 +36,30 @@ NOTE: The above pseudo classes are an example of **position** based.
     </ol>
 </body>
 </html>
+
+
+<!-- How the pseudo classes work in case of descendant selectors? -->
+
+NOTE: In the below snippet, the pseudo class is used to select the first child paragraph element of the **article** parent, however, since the header is the first child of the article parent, the following code has no effect unless and until we make the paragraph element the first child.
+
+
+<!-- Code Snippet -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        article p:first-child{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <article>
+        <h1>Pranav Shinde</h1>
+        <p>Hey there, iam Pranav Shinde</p>
+    </article>
+</body>
+</html>
