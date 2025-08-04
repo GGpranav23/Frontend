@@ -77,6 +77,8 @@ NOTE: In the below snippet, the pseudo class is used to select the first child p
 NOTE: In the below example, an anchor element is styled based on its state like "Is the href attribute defined?", "Is the link present in user's browser history", "Is the cursor being hovered on the element?",
 "Is the element being clicked" etc.
 
+NOTE: Define these state based pseudo classes for a link in the LVHA(link, visited, hover, active) order.
+
 <!-- Code Snippet -->
 <!DOCTYPE html>
 <html lang="en">
@@ -106,6 +108,6 @@ NOTE: In the below example, an anchor element is styled based on its state like 
 </head>
 <body>
     <a href="www.github.com">github</a>
-    <a href="">TEST MAIL</a>
+    <a href="">TEST</a>
 </body>
 </html>
