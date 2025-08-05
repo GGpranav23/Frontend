@@ -5,3 +5,5 @@
             WebSockets
             TCP, TLS, UDP
             Mobile performance
+
+3. https://web.dev/articles/critical-rendering-path : Resource for CRP
