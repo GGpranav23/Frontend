@@ -2,6 +2,8 @@ Prerequisite: Scoop
 How to install: **1. run pwsh as admin**
                 **2. Set-ExecutionPolicy RemoteSigned -Scope CurrentUser**
                 **3. iwr -useb get.scoop.sh | iex** (Run this without admin) 
+                **3. Scoop install gh** (This installs the github CLI) 
+                
 
 1. Authenticate with GitHub
     gh auth login
