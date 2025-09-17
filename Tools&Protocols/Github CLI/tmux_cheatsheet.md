@@ -33,7 +33,7 @@ Dont Follow these exact steps to copy & paste text inside tmux. Instead get your
    Alt + w
    ```
 
-   > (In your config, **Enter does not copy**. Use `Alt+w` instead.)
+   > (In my config, **Enter did not copy which typically does in most of configs**. So i was Using `Alt+w` instead.)
 
 ---
 
