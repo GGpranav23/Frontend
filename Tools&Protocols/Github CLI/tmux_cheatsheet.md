@@ -1,7 +1,12 @@
 # 📝 Tmux Copy-Paste Cheatsheet (Your Config)
 
-This cheatsheet is based on **your tmux keybindings** (from `list-keys`).  
-Follow these exact steps to copy & paste text inside tmux.
+This cheatsheet is based on **my tmux keybindings** (from `list-keys`).  
+Dont Follow these exact steps to copy & paste text inside tmux. Instead get your key bindings by running:
+
+
+1. First Enter tmux using "tmux" command
+2. Then press ctrl + b then : to enter command prompt of tmux
+3. Enter "list-keys" and then press enter
 
 ---
 
